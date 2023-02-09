@@ -1,5 +1,15 @@
 body {
+    height: 100%;
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F96%2F91%2F35%2F9691357e5ce8594e275716eccea075d0.jpg&f=1&nofb=1&ipt=783031b381673e5867218a2eedc477d17641140d95a34d3b9bfe20560b02580d&ipo=images')
+}
+html {
+    height: 100%;
+}
+
+title, body {
+    font-family: 'Hoefler Text';
+    color:rgba(45, 11, 18, 0.7);
+    font-size: larger;
 }
 
 #pink-background {
@@ -9,14 +19,27 @@ body {
     margin-top: 2px;
     margin-bottom: 2px;
     text-align: center;
+    height: 90%;
+    border-radius: 80%
 }
 
-img {
-    width: 25%;
-    height: 25%;
+h1 {
+    padding-top: 30px;
 }
+
+#profile {
+    width: 23%;
+    height: 23%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 10px;
+    border-radius: 45%;
+    border-color: rgba(189, 95, 112, 0.9);
+}
+
 li {
     list-style-type: none;
+    padding-right: 50px;
 }
 
 #blurb {
@@ -25,10 +48,56 @@ li {
     margin:0 auto;
 }
 
+#resume {
+    text-decoration: none;
+    padding: 2px;
+    border: solid 10px;
+    border-color: rgba(189, 95, 112, 0.6);
+    border-radius: 10%;
+}
+
+#resume:link {
+    color: rgba(201, 83, 105, 0.9);
+    text-decoration: none;
+}
+
+#resume:visited {
+    color: rgba(148, 37, 57, 0.9);
+    text-decoration: none;
+}
+
+#resume:hover {
+    color: rgba(81, 28, 38, 0.9);
+    text-decoration: underline;
+}
+
+#resume:active {
+    color:rgba(45, 11, 18, 0.9);
+    text-decoration: underline;
+}
+
+h4 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
 #opaque-background {
-    background-color: rgba(252, 146, 165, 0.7);
-    margin-left: 600px;
-    margin-right: 600px;
+    background-color: rgba(252, 146, 165, 0.6);
+    margin-left: 300px;
+    margin-right: 300px;
     margin-top: 10px;
     margin-bottom: 10px;
+    height: 100%;
+    border-radius: 48%
+}
+
+#singing, #piano, #zelda, #reading, #dnd, #plants, #lotr, #music-theory, #nature {
+    width: 1.5%;
+    height: 1.5%;
+}
+
+#singing-counter, #piano-counter, #zelda-counter, #reading-counter, #dnd-counter, #plants-counter, #lotr-counter, #music-theory-counter, #nature-counter {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    display: inline-block;
 }
