@@ -2,6 +2,33 @@ body {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F96%2F91%2F35%2F9691357e5ce8594e275716eccea075d0.jpg&f=1&nofb=1&ipt=783031b381673e5867218a2eedc477d17641140d95a34d3b9bfe20560b02580d&ipo=images')
 }
 
-#AboutMe {
-    background-color: rgba(245,218,223, 0.4);
+#pink-background {
+    background-color: rgba(252, 146, 165, 0.5);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+}
+li {
+    list-style-type: none;
+}
+
+#blurb {
+    text-align: center;
+    width: 50%;
+    margin:0 auto;
+}
+
+#opaque-background {
+    background-color: rgba(252, 146, 165, 0.7);
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
